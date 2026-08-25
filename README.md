@@ -6,7 +6,7 @@ Welcome to my professional portfolio website. This is a responsive, modern portf
 
 ## 🌐 Live Demo
 
-[View Live Portfolio](#) *(Link to be updated after deployment)*
+[View Live Portfolio](#) *(Link to be updated after deployment — see Deployment section below)*
 
 ## 📋 About This Portfolio
 
@@ -31,309 +31,87 @@ The website is fully responsive and optimised for desktop, tablet, and mobile de
 
 ```
 sinethemba-portfolio/
-├── index.html          # Main portfolio page
+├── index.html          # Main portfolio page (updated with contact and CV link)
 ├── css/
 │   └── styles.css      # All styling and responsive design
 ├── js/
 │   └── script.js       # JavaScript functionality
 ├── assets/
 │   ├── profile-image-placeholder.png  # Profile photo placeholder
-│   ├── cv.pdf          # CV file (to be added)
+│   ├── Sinethemba_Mbatha_CV_2026.pdf   # Uploaded CV (public)
 │   └── projects/       # Project screenshots/files
-├── README.md           # This file
-└── .gitignore          # Git ignore file
+├── README.md           # This file (updated)
+└── .github/
+    └── workflows/
+        └── pages.yml   # GitHub Actions workflow to publish site to GitHub Pages
 ```
 
 ## 📄 Website Sections
 
-### 1. **Navigation Bar**
-- Responsive navigation menu
-- Smooth scrolling to sections
-- Mobile hamburger menu
+(Sections on the site include Navigation, Hero, About, Skills, Projects, Education, Certifications, Experience, CV, Contact, and Footer.)
 
-### 2. **Hero Section**
-- Professional introduction
-- Profile image placeholder
-- Call-to-action buttons:
-  - View My Portfolio
-  - Download CV
+## 📥 CV
 
-### 3. **About Me**
-- Professional introduction as an aspiring Office Administrator
-- Career objective and goals
-- Overview of interests in administrative work
+The CV is uploaded to the repository at `assets/Sinethemba_Mbatha_CV_2026.pdf` and is publicly available:
+- Raw download: https://raw.githubusercontent.com/sineCapaciti048/sinethemba-portfolio/main/assets/Sinethemba_Mbatha_CV_2026.pdf
 
-### 4. **Skills**
-Two skill categories displayed professionally:
+If you prefer the file private later, I can remove it — let me know.
 
-**Technical/Administrative Skills:**
-- Microsoft Word
-- Microsoft Excel
-- Microsoft PowerPoint
-- Email and calendar management
-- Data capturing and data entry
-- Document preparation and formatting
-- Filing and record management
-- Basic database management
-- Internet research
-- Professional presentations
+## 📞 Contact
 
-**Soft Skills:**
-- Communication
-- Organisation
-- Time management
-- Attention to detail
-- Teamwork
-- Problem-solving
-- Professionalism
-- Adaptability
-- Confidentiality
-- Customer service
-
-### 5. **Projects**
-
-**Project 1: Professional Digital Filing System**
-- Description: An organised digital filing system demonstrating document organisation and efficient information retrieval
-- Tools: Microsoft Word, Windows File Management, Google Drive
-- Skills: Organisation, file management, attention to detail
-
-**Project 2: Office Expense Tracker**
-- Description: An Excel-based tracker for recording, categorising, and monitoring business expenses
-- Tools: Microsoft Excel
-- Skills: Data entry, analysis, spreadsheet management
-
-**Project 3: Meeting and Appointment Planner**
-- Description: A professional scheduling system for organising meetings, appointments, and office events
-- Tools: Microsoft Excel, Microsoft Outlook, Google Calendar
-- Skills: Planning, organisation, time management
-
-### 6. **Education**
-*[Placeholder section for qualifications and courses]*
-
-Awaiting information to be added.
-
-### 7. **Certifications**
-*[Placeholder section for professional certificates]*
-
-Awaiting information to be added.
-
-### 8. **Work Experience**
-*Currently seeking an opportunity to gain practical workplace experience in office administration.*
-
-Space available for internships, learnerships, and professional experience.
-
-### 9. **Contact Section**
-- Email: (add your email)
+- Email: sinethembam048@gmail.com
 - Phone: 0672566684
 - LinkedIn: https://www.linkedin.com/in/sinethemba-mbatha-ab9582316
-- Contact form with:
-  - Name field
-  - Email field
-  - Subject field
-  - Message field
-  - Send button
+- GitHub: https://github.com/sineCapaciti048
 
-### 10. **Footer**
-- Full name and title: Sinethemba Mbatha — Aspiring Office Administrator
-- Quick navigation links
-- Social media links:
-  - GitHub: https://github.com/sineCapaciti048
-  - LinkedIn: https://www.linkedin.com/in/sinethemba-mbatha-ab9582316
-- Contact information: Phone: 0672566684
-- Copyright notice
+## 🚀 Getting Started (Local Preview)
 
-## 🚀 Getting Started
-
-### Prerequisites
-- A web browser (Chrome, Firefox, Safari, Edge)
-- Git installed on your computer
-- A GitHub account
-
-### Running Locally
-
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone https://github.com/sineCapaciti048/sinethemba-portfolio.git
    cd sinethemba-portfolio
    ```
 
-2. **Open in browser:**
-   - Option A: Double-click `index.html`
-   - Option B: Use Live Server extension in VS Code
-   - Option C: Run a local server:
-     ```bash
-     python -m http.server 8000
-     # Then visit http://localhost:8000
-     ```
+2. Start a local server (optionally use VS Code Live Server):
+   ```bash
+   python -m http.server 8000
+   # Then visit http://localhost:8000
+   ```
 
-## 📤 Deployment
+## 📤 Deployment (GitHub Pages)
 
-### Deploy to GitHub Pages
+This repository includes a GitHub Actions workflow that will publish the site to GitHub Pages (gh-pages branch). After the workflow completes, your site will be accessible at:
 
-1. **Ensure your repository is public:**
-   - Go to GitHub.com → Your Repository
-   - Click Settings → Change to Public (if private)
+`https://sineCapaciti048.github.io/sinethemba-portfolio`
 
-2. **Enable GitHub Pages:**
-   - Go to Settings → Pages
-   - Source: Select "Deploy from a branch"
-   - Branch: Select "main"
-   - Folder: Select "/ (root)"
-   - Click Save
+Note: It can take a few minutes after the first deployment for the page to become available.
 
-3. **Access your live site:**
-   - GitHub Pages URL: `https://sineCapaciti048.github.io/sinethemba-portfolio`
-   - This may take 1-2 minutes to activate
+To check deployment status: go to the repository Actions tab → look for the "pages" workflow run.
 
-### Deploy to Netlify
+## ✏️ What I updated for you
 
-1. **Push your project to GitHub**
+- Uploaded CV: `assets/Sinethemba_Mbatha_CV_2026.pdf`
+- Updated `index.html` with:
+  - CV download link pointing to the uploaded file
+  - Contact info (email, phone, LinkedIn)
+  - Footer contact links
+- Added GitHub Actions workflow to auto-publish the site to GitHub Pages
+- Updated this README to reflect the above changes
 
-2. **Sign up at netlify.com**
+## 📝 What you may still want to add
 
-3. **Connect your GitHub repository:**
-   - Click "New site from Git"
-   - Select GitHub and authorise
-   - Choose your repository
-   - Build command: leave blank (no build needed)
-   - Publish directory: `.` (root)
-   - Click Deploy
-
-4. **Your live site URL:**
-   - Netlify generates a URL automatically (e.g., `https://your-site.netlify.app`)
-
-### Deploy to Vercel
-
-1. **Push your project to GitHub**
-
-2. **Sign up at vercel.com**
-
-3. **Import project:**
-   - Click "New Project"
-   - Select your GitHub repository
-   - Click Import
-   - Framework Preset: Other
-   - Click Deploy
-
-4. **Your live site URL:**
-   - Vercel generates a URL automatically
-
-## ✏️ Customisation Guide
-
-### Update Personal Information
-1. Open `index.html`
-2. Replace placeholders with your actual information:
-   - Name: Sinethemba Mbatha
-   - Email: (add your email)
-   - Phone: 0672566684
-   - Education details
-   - Work experience
-   - Certifications
-   - Project descriptions
-
-### Add Your Profile Image
-1. Save your photo as `profile-image.jpg` in the `assets/` folder
-2. Update the image path in `index.html`
-
-### Add Your CV
-1. Save your CV as `cv.pdf` in the `assets/` folder
-2. Update the CV download link in `index.html`
-
-### Update Colours and Fonts
-- Edit `css/styles.css`
-- Primary colours: Navy blue, white, light grey
-- Font family: Professional sans-serif (Segoe UI, Arial, or similar)
-
-### Update Social Links
-- LinkedIn: https://www.linkedin.com/in/sinethemba-mbatha-ab9582316
-- GitHub: https://github.com/sineCapaciti048
-- Replace or add additional social media as needed
-
-## 🎨 Design Features
-
-- **Professional Colour Scheme**: Navy blue, white, light grey, and subtle accents
-- **Responsive Layout**: Mobile-first design for all devices
-- **Smooth Animations**: Subtle transitions and hover effects
-- **Accessibility**: Semantic HTML, proper contrast, keyboard navigation
-- **Fast Loading**: Optimised images and clean code
-- **Modern UI/UX**: Clean, polished, employer-ready design
-
-## 📱 Responsive Design
-
-The website is optimised for:
-- **Desktop**: Full layout (1920px and above)
-- **Tablet**: Medium layout (768px - 1024px)
-- **Mobile**: Compact layout (320px - 767px)
-
-All sections reflow appropriately for smaller screens.
-
-## ♿ Accessibility
-
-- Semantic HTML5 elements
-- Proper heading hierarchy
-- ARIA labels where needed
-- Good colour contrast
-- Keyboard navigation support
-- Alt text for all images
-
-## 📝 What to Add
-
-Before sharing with employers, ensure you add:
-
-- [ ] Your professional profile photo
-- [ ] Your CV (PDF file)
-- [ ] Your actual email address
-- [x] Your LinkedIn profile URL (added)
-- [x] Your GitHub profile URL (added)
-- [x] Your phone number (added)
-- [ ] Education details
-- [ ] Any certifications obtained
-- [ ] Work experience or internships
-- [ ] Project descriptions and links
-- [ ] Contact form backend (if using form submission)
+- Profile photo: save as `assets/profile-image.jpg` and update `index.html` image src (I left the placeholder in place)
+- Education details, certifications, and experience entries
+- Contact form backend (EmailJS, Formspree, Netlify Forms, etc.) if you want messages sent to your email
 
 ## 🔧 Troubleshooting
 
-**Website not displaying correctly:**
-- Clear browser cache (Ctrl+Shift+Delete)
-- Try a different browser
-- Check that all file paths are correct
-
-**GitHub Pages not updating:**
-- Wait 1-2 minutes after pushing changes
-- Hard refresh your browser (Ctrl+Shift+R)
-- Check that the repository is public
-
-**Mobile menu not working:**
-- Ensure JavaScript is enabled in your browser
-- Check browser console for errors (F12)
-
-## 📞 Support & Help
-
-- GitHub Issues: Use GitHub Issues for bugs or feature requests
-- Learning Resources:
-  - [MDN Web Docs](https://developer.mozilla.org/)
-  - [GitHub Pages Documentation](https://pages.github.com/)
-  - [W3C Accessibility Guidelines](https://www.w3.org/WAI/)
+- If the Pages site doesn't appear after 10 minutes, check Actions → the workflow logs for errors, or let me know and I’ll investigate.
 
 ## 📝 License
 
 This portfolio project is personal and for professional use.
 
-## 🙏 Credits
-
-- Designed and developed for professional portfolio purposes
-- Inspired by modern web design best practices
-- Built with clean, accessible HTML, CSS, and JavaScript
-
 ---
 
 **Last Updated:** August 25, 2026
-
-**Status:** Portfolio in development - Ready for customisation with personal information
-
-**Next Steps:** Add your personal details, profile image, CV, and social media links, then deploy to make it live!
-
----
-
-*This portfolio is designed to help you make a professional impression with potential employers. Keep it updated as you gain new skills, certifications, and experience!*
