@@ -123,8 +123,9 @@ Awaiting information to be added.
 Space available for internships, learnerships, and professional experience.
 
 ### 9. **Contact Section**
-- Email contact placeholder
-- Phone contact placeholder
+- Email: (add your email)
+- Phone: 0672566684
+- LinkedIn: https://www.linkedin.com/in/sinethemba-mbatha-ab9582316
 - Contact form with:
   - Name field
   - Email field
@@ -133,10 +134,12 @@ Space available for internships, learnerships, and professional experience.
   - Send button
 
 ### 10. **Footer**
-- Full name and title
+- Full name and title: Sinethemba Mbatha — Aspiring Office Administrator
 - Quick navigation links
-- Social media links (GitHub, LinkedIn)
-- Contact information
+- Social media links:
+  - GitHub: https://github.com/sineCapaciti048
+  - LinkedIn: https://www.linkedin.com/in/sinethemba-mbatha-ab9582316
+- Contact information: Phone: 0672566684
 - Copyright notice
 
 ## 🚀 Getting Started
@@ -220,7 +223,9 @@ Space available for internships, learnerships, and professional experience.
 ### Update Personal Information
 1. Open `index.html`
 2. Replace placeholders with your actual information:
-   - Name, email, phone
+   - Name: Sinethemba Mbatha
+   - Email: (add your email)
+   - Phone: 0672566684
    - Education details
    - Work experience
    - Certifications
@@ -240,8 +245,9 @@ Space available for internships, learnerships, and professional experience.
 - Font family: Professional sans-serif (Segoe UI, Arial, or similar)
 
 ### Update Social Links
-- Replace placeholder LinkedIn, GitHub URLs with your actual profiles
-- Add additional social media as needed
+- LinkedIn: https://www.linkedin.com/in/sinethemba-mbatha-ab9582316
+- GitHub: https://github.com/sineCapaciti048
+- Replace or add additional social media as needed
 
 ## 🎨 Design Features
 
@@ -277,9 +283,9 @@ Before sharing with employers, ensure you add:
 - [ ] Your professional profile photo
 - [ ] Your CV (PDF file)
 - [ ] Your actual email address
-- [ ] Your LinkedIn profile URL
-- [ ] Your GitHub profile URL
-- [ ] Your phone number (optional)
+- [x] Your LinkedIn profile URL (added)
+- [x] Your GitHub profile URL (added)
+- [x] Your phone number (added)
 - [ ] Education details
 - [ ] Any certifications obtained
 - [ ] Work experience or internships
@@ -322,7 +328,7 @@ This portfolio project is personal and for professional use.
 
 ---
 
-**Last Updated:** August 2026
+**Last Updated:** August 25, 2026
 
 **Status:** Portfolio in development - Ready for customisation with personal information
 
