@@ -114,4 +114,4 @@ This portfolio project is personal and for professional use.
 
 ---
 
-**Last Updated:** August 25, 2026
+**Last Updated:** August 25, 2026 — Deployed to GitHub Pages (workflow triggered)
